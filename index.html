@@ -1,61 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>עזרה במימוש זכויות רפואיות</title>
-  <meta name="description" content="עזרה במימוש זכויות רפואיות בישראל - מידע וייעוץ בנושא ביטוח לאומי, קופות חולים, חברות הביטוח ועוד.">
-  <meta name="keywords" content="מימוש זכויות, ביטוח לאומי, נכות, בריאות, קופת חולים, זכויות רפואיות בישראל">
-  <meta name="author" content="Medical Rights Team">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>מימוש זכויות רפואיות</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #e3f2fd, #bbdefb);
+      font-family: 'Heebo', sans-serif;
+      background: url('DSC_0763.JPG') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.8);
+      min-height: 100vh;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      height: 100vh;
-      direction: rtl;
-    }
-    .card {
-      background: white;
-      padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-      max-width: 500px;
+      justify-content: center;
       text-align: center;
+      padding: 2rem;
     }
+
     h1 {
-      color: #0d47a1;
+      font-size: 3rem;
       margin-bottom: 1rem;
+      color: #2c3e50;
     }
+
     p {
+      font-size: 1.2rem;
+      max-width: 600px;
       color: #333;
       margin-bottom: 2rem;
-      line-height: 1.6;
     }
-    a.button {
-      display: inline-block;
-      background: #1976d2;
+
+    .btn {
+      background-color: #3498db;
       color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
       text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
-      border-radius: 0.5rem;
-      transition: background 0.3s ease;
+      transition: background-color 0.3s ease;
     }
-    a.button:hover {
-      background: #0d47a1;
+
+    .btn:hover {
+      background-color: #2980b9;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>מימוש זכויות רפואיות</h1>
-    <p>ברוכים הבאים! כאן תוכלו לקבל ייעוץ והכוונה במימוש זכויות רפואיות מול ביטוח לאומי, קופות החולים, חברות הביטוח ועוד.</p>
-    <a href="start.html" class="button">התחילו כאן</a>
+  <div class="overlay">
+    <h1>ברוכים הבאים למדריך למימוש זכויות רפואיות</h1>
+    <p>כאן תמצאו מידע וכלים שיעזרו לכם לקבל את מה שמגיע לכם מביטוח לאומי, קופות החולים וחברות הביטוח.</p>
+    <a href="start.html" class="btn">התחל כאן</a>
   </div>
 </body>
 </html>
